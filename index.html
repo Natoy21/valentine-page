@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <style>
+        body {
+            background-color: #ffe6e6;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            border: 5px solid #ff3366;
+            border-radius: 15px;
+            background-color: #fff0f5;
+            display: inline-block;
+        }
+        h1 {
+            color: #ff3366;
+            font-size: 50px;
+            text-shadow: 2px 2px 4px #ff99cc;
+        }
+        .heart {
+            color: red;
+            font-size: 30px;
+        }
+        .flowers {
+            margin-top: 20px;
+            font-size: 100px;
+        }
+        .heart-animation {
+            animation: heartbeat 1s infinite alternate;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.2); }
+        }
+        .valentine-card {
+            margin-top: 30px;
+            padding: 20px;
+            border: 3px dashed #ff6699;
+            background: #ffe6f2;
+            border-radius: 10px;
+            font-size: 18px;
+            font-style: italic;
+            color: #cc3366;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff3366;
+            color: white;
+            font-size: 18px;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 2px 2px 5px #ff99cc;
+        }
+        .button:hover {
+            background: #cc3366;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day <span class="heart heart-animation">❤</span></h1>
+        <p>Can you be my valentine?</p>
+        <div class="flowers">🌹🌸💐🌺🌷</div>
+        <div class="valentine-card">"You are my sunshine, my moon, and all my stars! Wishing you a day filled with love and joy."</div>
+        <a href="#" class="button">Send Love</a>
+    </div>
+</body>
+</html>
+
